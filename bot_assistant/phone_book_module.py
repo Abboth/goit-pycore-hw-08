@@ -15,6 +15,8 @@ def input_error(func):
             return f"{name} is not recorded in your phone book"
         except IndexError:
             return "Enter contact name please"
+        except FileNotFoundError:
+            return AddressBook()
     return inner
 
 
