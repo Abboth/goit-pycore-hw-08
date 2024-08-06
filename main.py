@@ -1,9 +1,9 @@
 from bot_assistant.phone_book_module import *
 from bot_assistant.bot_classes import *
-
+from bot_assistant.saver import *
 
 def main():
-    book = AddressBook()
+    book = load_data()
     print("Welcome to the assistant bot!")
     while True:
         user_input = input("Enter a command: ")
@@ -11,6 +11,7 @@ def main():
 
         if command in ["close", "exit"]:
             print("Good bye!")
+            save_data(book)
             break
 
         elif command == "hello":

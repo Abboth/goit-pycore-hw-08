@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="119c9009-3b34-44f3-a752-a5fd37fe1fc9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/goit-core-hw-07.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot_assistant/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot_assistant/birthdays_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot_assistant/bot_classes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot_assistant/phone_book_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="119c9009-3b34-44f3-a752-a5fd37fe1fc9" name="Changes" comment="Final">
+      <change afterPath="$PROJECT_DIR$/bot_assistant/saver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Abboth&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Abboth/goit-core-hw-07.git&quot;,
+    &quot;accountId&quot;: &quot;53ab167c-c26d-49d0-ba26-c4650cf4bd59&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -46,6 +51,7 @@
     "Python.birthdays_module.executor": "Run",
     "Python.main.executor": "Run",
     "Python.phone_book_module.executor": "Run",
+    "Python.qw.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
@@ -66,15 +72,28 @@
       <option name="presentableId" value="Default" />
       <updated>1722582855075</updated>
     </task>
+    <task id="LOCAL-00001" summary="Final">
+      <option name="closed" value="true" />
+      <created>1722759914156</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722759914156</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="7" />
+          <url>file://$PROJECT_DIR$/qw.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
