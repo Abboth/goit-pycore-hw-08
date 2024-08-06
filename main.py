@@ -2,6 +2,7 @@ from bot_assistant.phone_book_module import *
 from bot_assistant.bot_classes import *
 from bot_assistant.saver import *
 
+
 def main():
     book = load_data()
     print("Welcome to the assistant bot!")
